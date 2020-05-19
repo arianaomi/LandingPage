@@ -1,0 +1,302 @@
+/*
+      mobile desing
+ */
+@font-face {
+  font-family: "open";
+  src: url("../tipo/Open_Sans/OpenSans-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "openR";
+  src: url("../tipo/Open_Sans/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ponnins";
+  src: url("../tipo/Poppins/Poppins-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins-h";
+  src: url("../tipo/Poppins/Poppins-Regular.ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "ponnins";
+}
+/* Style header */
+header {
+  background-image: url("../img/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+  padding: 20px 30px;
+}
+.logo-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.logo {
+  width: 30%;
+}
+.button-white {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px hsla(209, 11%, 55%, 0.432);
+  color: #102c37;
+  font-size: small;
+  font-weight: bold;
+  font-family: "open";
+  height: 25px;
+  width: 150px;
+}
+.build {
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+.build-text > h1 {
+  font-family: "poppins-h";
+  font-size: 25px;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.build-text p {
+  margin-bottom: 25px;
+}
+
+.button-pink {
+  font-family: "open";
+  border-radius: 25px;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 3px 3px 5px hsla(209, 11%, 55%, 0.432);
+  padding: 5px 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: small;
+  width: 80%;
+  padding: 15px 0px;
+  margin: 20px 0px;
+}
+#img-build {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* fin style header */
+
+/* Inicio style section CARRDS */
+
+/* fin style section CARRDS */
+
+section {
+  margin: 100px 25px;
+}
+.card {
+  box-shadow: 5px 5px 16px hsla(209, 11%, 55%, 0.432);
+  border-radius: 20px;
+  padding: 40px 50px;
+  margin-bottom: 45px;
+}
+
+.card > img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 50px 0px;
+}
+.text-cards {
+  text-align: center;
+  margin-top: 10px;
+}
+.text-cards h2 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-family: "poppins-h";
+  font-size: 22px;
+}
+
+.card .text-cards p {
+  margin-top: 20px;
+  color: hsl(208, 11%, 55%);
+}
+/* style card aside */
+.card-aside {
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  margin: 0px 15px;
+  padding: 35px 10px;
+  position: relative;
+  bottom: -75px;
+  box-shadow: 5px -2px 16px hsla(209, 11%, 55%, 0.432);
+}
+
+.card-aside h2 {
+  font-family: "poppins-h";
+  font-weight: bold;
+  padding: 20px 5px 0 5px;
+  font-size: 20px;
+}
+.card-aside button {
+  width: 70%;
+}
+/* fin card aside */
+/* style footer */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding-top: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30% 20px 0px 20px;
+  font-size: 24px;
+}
+
+footer > img {
+  width: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+}
+.info > img {
+  height: 60%;
+  margin-right: 25px;
+}
+.secciones {
+  margin-top: 50px;
+}
+footer h3 {
+  margin-bottom: 30px;
+  font-family: "openR";
+  font-size: 24px;
+  font-weight: lighter;
+}
+.redes-sociales {
+  text-align: center;
+  margin-top: 20px;
+}
+i {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 20px 5px;
+}
+
+#copy {
+  text-align: center;
+  font-size: small;
+  margin: 20px 0px 60px 0;
+}
+
+/* fin style footer */
+/* Fin  mobile desing  */
+
+/* Inicio  desktop desing */
+
+@media only screen and (min-width: 1024px) {
+  /* header en desktop */
+  header {
+    background-image: ("../img/bg-hero-mobile.svg");
+    padding: 40px 40px;
+  }
+  .logo-button {
+    margin-bottom: 40px;
+  }
+  .logo {
+    width: 10%;
+  }
+  .build {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .build-text {
+    text-align: left;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  #img-build {
+    width: 50%;
+    margin-left: 5%;
+  }
+  /* fin header desktop */
+  /* cards en desktop */
+  .card {
+    padding: 0px 30px;
+    margin: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card img.img-card {
+    margin-right: 50px;
+    width: 30%;
+    margin-left: 50px;
+  }
+  .text-cards {
+    text-align: left;
+    width: 70%;
+    margin-left: 10px;
+    padding-left: 5%;
+    margin-right: 50px;
+  }
+  .card .text-cards h2 {
+    margin-top: 0px;
+  }
+  .card-left {
+    flex-direction: row-reverse;
+  }
+  /* cards en desktop */
+  /*style card- aside*/
+  .card-aside {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* fin card-aside*/
+  /* footer */
+  footer {
+    padding: 0px 5rem;
+    padding-top: 10%;
+  }
+
+  footer > img {
+    width: 10%;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .info {
+    width: 25%;
+  }
+  .section1 {
+    width: 25%;
+  }
+  .section2 {
+    width: 25%;
+  }
+  .redes-sociales {
+    width: 25%;
+  }
+
+  /* fin footerr */
+}
+/*fin desktop desing */
